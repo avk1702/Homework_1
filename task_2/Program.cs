@@ -6,7 +6,7 @@ b = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите c:");
 c = int.Parse(Console.ReadLine());
 max = a;
-if (a > max) max = a;
+
 if (b > max) max = b;
 if (c > max) max = c;
 
